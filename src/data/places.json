@@ -1,0 +1,57 @@
+[
+    {
+      "ID": 1,
+      "nombre": "Rectorado",
+      "longitud": -66.8625,
+      "latitud": -29.4108,
+      "URL": "https://www.unlar.edu.ar/rectorado",
+      "descripcion": "Oficina central de la Universidad Nacional de La Rioja.",
+      "horario": "Lunes a viernes de 8:00 a 16:00",
+      "telefono": "123-456789",
+      "tipo": ["Administrativo"]
+    },
+    {
+      "ID": 2,
+      "nombre": "Secretaria",
+      "longitud": -66.8612,
+      "latitud": -29.4123,
+      "URL": "https://www.unlar.edu.ar/secretaria-academica",
+      "descripcion": "Encargada de los asuntos académicos de la universidad.",
+      "horario": "Lunes a viernes de 9:00 a 17:00",
+      "telefono": "987-654321",
+      "tipo": ["Administrativo"]
+    },
+    {
+      "ID": 3,
+      "nombre": "Consejo",
+      "longitud": -66.8600,
+      "latitud": -29.4090,
+      "URL": "https://www.unlar.edu.ar/consejo-superior",
+      "descripcion": "Órgano de gobierno de la universidad.",
+      "horario": "Lunes a jueves de 10:00 a 18:00",
+      "telefono": "555-123456",
+      "tipo": ["Administrativo"]
+    },
+    {
+      "ID": 4,
+      "nombre": "Administracion",
+      "longitud": -66.8615,
+      "latitud": -29.4110,
+      "URL": "https://www.unlar.edu.ar/secretaria-administrativa-financiera",
+      "descripcion": "Encargada de los asuntos administrativos y financieros de la universidad.",
+      "horario": "Lunes a viernes de 9:00 a 17:00",
+      "telefono": "333-555999",
+      "tipo": ["Administrativo", "Finanzas"]
+    },
+    {
+      "ID": 5,
+      "nombre": "Microcine",
+      "longitud": -66.8630,
+      "latitud": -29.4125,
+      "URL": "https://www.unlar.edu.ar/microcines",
+      "descripcion": "Espacio para proyecciones y eventos culturales.",
+      "horario": "Varía según la programación",
+      "telefono": "777-888000",
+      "tipo": ["Entretenimiento", "Cultura"]
+    }
+]
