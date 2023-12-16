@@ -1,9 +1,13 @@
+import 'dotenv/config'
 import express from 'express'
 import placesData from './data/places.json'
 import {router as placesRouter} from './routes/places.router'
+import { connect } from './db/mongo'
 
 const app = express() //Instancia de express
 const PORT = 4000
+
+connect()
 
 app.use(express.json()) //Habilita middleware de analisis de JSON. Sirve para leer los datos JSON en el body de las REQUEST. Mantiene los tipos de datos
 
