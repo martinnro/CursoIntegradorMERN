@@ -4,9 +4,11 @@ import placesData from './data/places.json'
 import {router as placesRouter} from './routes/places.router'
 import { connect } from './db/mongo'
 
+const cors = require('cors');
 const app = express() //Instancia de express
 const PORT = 4000
 
+app.use(cors());
 connect()
 
 app.use(express.json()) //Habilita middleware de analisis de JSON. Sirve para leer los datos JSON en el body de las REQUEST. Mantiene los tipos de datos

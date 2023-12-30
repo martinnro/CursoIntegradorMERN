@@ -7,7 +7,7 @@ export function validatePlaceBody(req:Request, res:Response, next: NextFunction)
         nombre: Joi.string().required(),
         longitud: Joi.number().required(),
         latitud: Joi.number().required(),
-        url: Joi.string().uri().required(),
+        url: Joi.string().required(),
         descripcion: Joi.string().required(),
         horario: Joi.string().required(),
         telefono: Joi.string().required(),
